@@ -64,6 +64,8 @@ else
   echo "-> ruby-2.1.5 installed."
 fi
 
+apt-get -y install postgresql-server-dev-9.3
+
 # Install bundler
 if grep -q +bundler .provisioning-progress; then
   echo "-> bundler already installed"
