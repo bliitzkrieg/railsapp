@@ -16,4 +16,8 @@
 !/log/.keep
 /tmp
 
+# Ignore Spring files.
+/spring/*.pid
+
+# Ignore Vagrant files.
 /.vagrant
